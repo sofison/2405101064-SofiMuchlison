@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Layouting : Display</title>
+
+    <style>
+        nav {
+            background: #C9BBFF;
+            grid-area: nav;
+        }
+
+        header {
+            background: #707070;
+            grid-area: header;
+            text-align: center;
+        }
+
+        section {
+            background: #ABABAB;
+            grid-area: section;
+        }
+
+        footer {
+            background: #707070;
+            grid-area: footer;
+            text-align: center;
+        }
+
+        body {
+            display: grid;
+            grid-template-areas:
+                "header header"
+                "nav section"
+                "footer footer";
+
+            grid-template-rows: 80px 1fr 50px;
+            grid-template-columns: 20% 1fr;
+            grid-gap: 5px;
+            min-height: 100vh;
+            margin: 10px;
+        }
+
+        header, nav, section, footer {
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>HTML5 Semantic</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#pengertian">Pengertian</a></li>
+            <li><a href="#kesimpulan">Kesimpulan</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <article id="home">
+            <h2>HTML5 Semantic</h2>
+            <p>Bagian ini adalah isi web.</p>
+        </article>
+
+        <article id="pengertian">
+            <h2>Pengertian</h2>
+            <p>
+                Penggunaan Semantic HTML dapat menggantikan
+                fungsi div dengan atributnya, sehingga baris
+                kode menjadi lebih ringkas.
+            </p>
+        </article>
+
+        <article id="kesimpulan">
+            <h2>Kesimpulan</h2>
+            <p>
+                HTML5 Semantic membantu membuat struktur
+                halaman web lebih jelas dan mudah dipahami.
+            </p>
+        </article>
+    </section>
+
+    <footer>
+        Copyright
+    </footer>
+
+</body>
+</html>

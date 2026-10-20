@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Layouting : Display</title>
+</head>
+<body>
+
+    <div class="header">
+        <h1>SELAMAT DATANG DI WEBKU</h1>
+    </div>
+
+    <div class="navigasi">
+        <a href="#">HOME</a>
+        <a href="#">PROFIL</a>
+        <a href="#">CONTACT</a>
+    </div>
+
+    <div class="main">
+        <p>Bagian ini adalah isi web</p>
+        <img src="poster.png">
+    </div>
+
+    <div class="footer">
+        <p>Copyright © 2021 Web Programming UNIPMA</p>
+    </div>
+
+    <div class="main">
+        <h2>Bagian ini adalah isi web</h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit, sed do eiusmod tempor incididunt
+            ut labore et dolore <span>magna aliqua</span>.
+            Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip
+            ex ea commodo consequat.
+        </p>
+    </div>
+
+    <div class="footer">
+        <p>Copyright © 2021 Web Programming UNIPMA</p>
+    </div>
+
+    <hr>
+
+    <h2>Non Semantic HTML</h2>
+
+    <div id="header"></div>
+    <div id="sidebar"></div>
+
+    <div id="content">
+        <div class="post"></div>
+    </div>
+
+    <div id="footer"></div>
+
+    <hr>
+
+    <h2>Semantic HTML</h2>
+
+    <header>
+        <h1>Dasar HTML5 Semantic</h1>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a> |
+        <a href="#artikel">Artikel</a> |
+        <a href="#tentang">Tentang</a>
+    </nav>
+
+    <main>
+        <section id="home">
+            <h2>Bagian Utama</h2>
+            <p>Ini adalah bagian utama halaman web.</p>
+        </section>
+
+        <article id="artikel">
+            <h2>Artikel</h2>
+            <p>
+                HTML Semantic membantu menjelaskan fungsi
+                setiap bagian dalam dokumen HTML.
+            </p>
+        </article>
+
+        <aside>
+            <h3>Informasi Tambahan</h3>
+            <p>Ini adalah informasi tambahan pada halaman.</p>
+        </aside>
+
+        <section>
+            <h2>Contoh Detail</h2>
+
+            <details>
+                <summary>Pengertian HTML</summary>
+                <p>
+                    HTML adalah bahasa markup untuk membuat
+                    struktur halaman web.
+                </p>
+            </details>
+        </section>
+
+        <section>
+            <h2>Contoh Gambar</h2>
+
+            <figure>
+                <img src="poster.png" alt="Poster" width="200">
+                <figcaption>Gambar poster halaman web.</figcaption>
+            </figure>
+        </section>
+
+        <section id="tentang">
+            <h2>Tentang Halaman</h2>
+            <p>
+                Halaman ini dibuat untuk mempelajari
+                elemen HTML Semantic.
+            </p>
+
+            <p>
+                Tanggal pembelajaran:
+                <time datetime="2026-10-20">20 Oktober 2026</time>
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Copyright © 2021 Web Programming UNIPMA</p>
+    </footer>
+
+</body>
+</html>
