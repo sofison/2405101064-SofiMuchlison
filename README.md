@@ -6,22 +6,21 @@
 
 
 
-\- Nama: \[Nama Lengkap]
+\- Nama: \Sofi Muchlison
 
-\- NIM: \[NIM]
+\- NIM: \2405101064
 
-\- Kelas: \[Kelas]
+\- Kelas: \5D
 
-\- Program Studi: \[Program Studi]
+\- Program Studi: \Teknik Informatika
 
-\- Mata Kuliah: Mobile Programming
+\- Mata Kuliah: Pemrograman Web Dasar
 
-\- Tahun Akademik: \[Tahun Akademik]
+\- Tahun Akademik: \2026/2027
 
 
 
 \## Deskripsi
-
 
 
 Repository ini berisi source code, dokumentasi,
@@ -40,7 +39,8 @@ selama satu semester.
 
 |---|---|---|
 
-| 01 | \[Topik Praktikum 01](./pertemuan-01/) | \[Folder](./pertemuan-01/) |
+| 01 | \[Topik Praktikum 01](./pertemuan-01/) | \[modul-01](./pertemuan-01/) |
+| 02 | \[Topik Praktikum 02](./pertemuan-02/) | \[modul-02](./pertemuan-02/) |
 
 
 
