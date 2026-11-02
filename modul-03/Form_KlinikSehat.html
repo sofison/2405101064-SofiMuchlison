@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulir Pendaftaran Klinik Sehat</title>
+</head>
+<body>
+    <h2>Formulir Pendaftaran Pasien Klinik Sehat</h2>
+    <form action="proses_klinik.php" method="post">
+        <label>Nama Pasien:</label><br />
+        <input type="text" name="nama_pasien" size="30" />
+        <br /><br />
+
+        <label>Nomor Telepon / WhatsApp:</label><br />
+        <input type="text" name="no_telp" size="30" />
+        <br /><br />
+
+        <label>Jenis Kelamin:</label><br />
+        <input type="radio" name="jk" value="Laki-laki" /> Laki-laki
+        <input type="radio" name="jk" value="Perempuan" /> Perempuan
+        <br /><br />
+
+        <label>Poli Tujuan:</label><br />
+        <select name="poli">
+            <option value="Poli Umum" selected>Poli Umum</option>
+            <option value="Poli Gigi">Poli Gigi</option>
+            <option value="Poli Anak">Poli Anak</option>
+            <option value="Poli Kandungan">Poli Kandungan</option>
+        </select>
+        <br /><br />
+
+        <label>Keluhan Penyakit:</label><br />
+        <textarea name="keluhan" rows="5" cols="30">Tuliskan keluhan kesehatan Anda</textarea>
+        <br /><br />
+
+        <input type="submit" value="Kirim Pendaftaran" />
+    </form>
+</body>
+</html>
