@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Inline Styles</title>
+</head>
+<body>
+    <h1 style="color:blue">This is a blue heading</h1>
+</body>
+</html>
+
+<html>
+<head>
+<style>
+body {background-color:lightgrey}
+h1 {color:blue}
+p {color:green}
+</style>
+</head>
+<body>
+<h1>Judul1</h1>
+<p>paragrap</p>
+</body>
+</html>
+
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        h1 {color: blue;
+            font-family: verdana;
+            font-size: 300%;}
+        p {color: red;
+            font-family: courier;
+            font-size: 160%;}
+        
+        p.error {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ini adalah Header</h1>
+    <h1>Judul</h1>
+    <p>Ini adalah Paragraf</p>
+    <p >ini paragraf sebelum error</p>
+    <p>Ini adalah Paragraf</p>
+    <p class="error">ini paragraf setelah error</p>
+    <p>Ini adalah Paragraf</p>
+</body>
+
+
+<head>
+    <style>
+        table, th, td{
+            border: 3px solid black;
+            border-collapse: collapse;
+        }
+        th, td{
+            padding: 5px;
+            text-align: left;
+        }
+        table#t01 {
+            width: 100%;
+            background-color: #a8a82c;
+        }
+    </style>
+</head>
+<body>
+    <table style="width: 100%;">
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>age</th>
+        </tr>
+        <tr>
+            <td>rusi</td>
+            <td>Anandi</td>
+            <td>18</td>
+        </tr>
+    </table>
+    <table id="t01">
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>age</th>
+        </tr>
+        <tr>
+            <td>Novya</td>
+            <td>Selena</td>
+            <td>18</td>
+        </tr>
+    </table>
+</body>
+
+
+
+
+<head>
+    <style>
+        table, th, td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        table.names {
+            width: 100%;
+            background-color: #f1f1c1;
+        }
+    </style>
+</head>
+<body>
+    <h2>Latihan 2</h2>
+    <table style="width: 100%;">
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>age</th>
+        </tr>
+        <tr>
+            <td>rusi</td>
+            <td>Anandi</td>
+            <td>18</td>
+        </tr>
+    </table>
+    <table class="names">
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>age</th>
+        </tr>
+        <tr>
+            <td>Novya</td>
+            <td>Selena</td>
+            <td>18</td>
+        </tr>
+    </table>
+</html>
